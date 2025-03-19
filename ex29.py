@@ -19,8 +19,8 @@ def exibir_menu():
                 else:
                     print("/n-----------LISTA DE CADASTROS----------")
                 for i, pessoa in enumerate (cadastros, 1):
-                print (f "(i), nome:(pessoa ['nome]},Idade:
-                pessoa ['idade']}, turma : {pessoa [ 'turma']},curso : {pessoa['curso']}")
+                print (f "(i), nome:(pessoa['nome]},Idade:
+                pessoa['idade']}, turma : {pessoa ['turma']},curso : {pessoa['curso']}")
                 
 
 def main ():
@@ -33,5 +33,11 @@ def main ():
         elif opção == "2" : 
         ver_cadastros (cadastros)
 elif opção == "3":
-print ("Obrigada por ultilizar nosso sistema")
-break
+print ("Obrigada por ultilizar nosso sistema de cadastro")
+    break
+else:
+print("Opção invalida!Tente novamente.")
+if_name_=="_main_":
+    main()
+    
+
